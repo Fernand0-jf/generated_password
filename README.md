@@ -32,7 +32,7 @@ Acesse a documentação da API utilizando Swagger:
 ### Exemplos
 
 
-#### Obter todos os Usuários
+## Gerar senha aleatória forte
 
 **Request:**
 ```http
@@ -42,7 +42,7 @@ GET /api/password
 ```http
 5-"j%*!#uniC.
 ```
-## Deletar Usuário
+## Verificar se é uma senha forte
 
 **Request:**
 ```http
@@ -52,7 +52,7 @@ GET /api/password/Seinao01.
 ```http
 True
 ```
-## Deletar Usuário
+## Gera uma senha aleatória customizada
 
 **Request:**
 ```http
