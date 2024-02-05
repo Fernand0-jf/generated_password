@@ -46,7 +46,7 @@ GET /api/password
 
 **Request:**
 ```http
-GET /api/password/Seinao01.
+GET /api/password/Seilanao01.
 ```
 **Resposta:**
 ```http
