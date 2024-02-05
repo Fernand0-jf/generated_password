@@ -137,7 +137,7 @@ public class PasswordService {
 		if(i>=8){
 			length1=true;
 		}
-		if(lowerCase && upperCase &&length1 && special) {
+		if(passwordDto.getLowerCase() && passwordDto.getUpperCase() && passwordDto.getSpecial()) {
 			passwordDto.setForte(true);
 			return true;
 		}else {passwordDto.setForte(false);return false;}
